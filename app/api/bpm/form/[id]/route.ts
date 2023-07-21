@@ -10,6 +10,23 @@ export async function GET(req: Request) {
                 'name': "campo 1",
                 'type': "int",
                 'column': 0,
+                'colspan': 6,
+              },
+              {
+                'name': "campo 2",
+                'type': "int",
+                'column': 1,
+                'colspan': 6,
+              },
+            ]
+          },
+          {
+            'index': 1,
+            'fields': [
+              {
+                'name': "campo 1",
+                'type': "int",
+                'column': 1,
                 'colspan': 12,
               }
             ]
